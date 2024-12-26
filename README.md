@@ -21,3 +21,7 @@ npm start
 ```
 
 The it will do all task automatically.
+
+## Technology
+
+- Node.js
