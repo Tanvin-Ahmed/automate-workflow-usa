@@ -10,6 +10,22 @@ In this project, handle some required type of error like:
 
 To run this project in local machine please run the following command in project root directory terminal
 
+1st of all Node.js must be installed in your machine.
+
+Then run the following command for install all dependencies to run this project
+
+```
+Yarn
+```
+
+or
+
+```
+npm install
+```
+
+Then run the following command to run the project
+
 ```
 yarn start
 ```
