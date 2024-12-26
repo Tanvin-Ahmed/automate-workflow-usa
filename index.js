@@ -1,5 +1,5 @@
 import { gql } from "graphql-request";
-import { graphQLClient } from "./libs/gql.js"; // Adjust path as per your structure
+import { graphQLClient } from "./libs/gql.js";
 import axios from "axios";
 import { createObjectCsvWriter } from "csv-writer";
 import path from "path";
@@ -64,7 +64,6 @@ const postCountry = async (country, retries = 3) => {
   }
 };
 
-// Main workflow function
 const automateWorkflow = async () => {
   try {
     console.log("automation started. Please wait...");
@@ -84,5 +83,4 @@ const automateWorkflow = async () => {
   }
 };
 
-// Run the workflow directly
 automateWorkflow();
