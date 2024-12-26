@@ -15,7 +15,7 @@ To run this project in local machine please run the following command in project
 Then run the following command for install all dependencies to run this project
 
 ```
-Yarn
+yarn
 ```
 
 or
